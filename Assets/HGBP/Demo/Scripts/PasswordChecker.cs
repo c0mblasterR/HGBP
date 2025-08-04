@@ -5,7 +5,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Collections;
 
-public class HGBPController : MonoBehaviour
+public class PasswordChecker : MonoBehaviour
 {
     [Header("UI Elements")]
     public TMP_InputField passwordInputField;
@@ -49,14 +49,14 @@ public class HGBPController : MonoBehaviour
             if (parts.Length == 2 && parts[0].Trim() == suffix)
             {
                 found = true;
-                resultText.text = $"⚠️ This password has been seen {parts[1].Trim()} times in data breaches.";
+                resultText.text = $"This password has been seen {parts[1].Trim()} times in data breaches.";
                 break;
             }
         }
 
         if (!found)
         {
-            resultText.text = "✅ This password was NOT found in known data breaches.";
+            resultText.text = "This password was NOT found in known data breaches.";
         }
     }
 
