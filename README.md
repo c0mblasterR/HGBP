@@ -14,10 +14,10 @@
 - 📧 Optional Email Breach Check (requires premium API key)
 - 🎮 Unity Demo Scene for quick preview and testing
 - 🧱 Modular Architecture (can be extended/customized)
+- 📦 Offline Dictionary System (for fully local integration)
 
 ### 🔄 In Progress
 
-- 📦 Offline Dictionary System (for fully local integration)
 - 📘 Full Developer Documentation
 - 🧪 Test Architecture (Unit tests & example use cases)
 
@@ -61,7 +61,7 @@
 | Password breach API check   | ✅ Completed   |
 | Email breach API support    | ✅ Completed   |
 | Unity demo scene            | ✅ Completed   |
-| Offline leak dictionary     | 🔄 In Progress |
+| Offline leak dictionary     | ✅ Completed   |
 | Inspector GUI               | 📌 Planned     |
 | Dictionary builder tool     | 📌 Planned     |
 | Multi-language support      | 📌 Planned     |
@@ -70,15 +70,21 @@
 
 ## 📁 Repository Structure
 
-HGBP/
-├── Demo/ # Contains demo implementations
-│ ├── Scenes/
-│ │ ├── Email Checker Demo.unity # Email leak check demo scene
-│ │ └── Password Checker Demo.unity # Password leak check demo scene
-│ └── Scripts/
-│ ├── EmailChecker.cs # Optional email leak checker (HIBP Premium required)
-│ └── PasswordChecker.cs # Password validation using k-Anonymity model
-├── Readme.txt # Unity Editor-friendly documentation
+Assets/
+├── HGBP/
+│ ├── Demo/
+│ │ ├── Scenes/
+│ │ │ ├── EmailCheckerDemo.unity
+│ │ │ ├── PasswordCheckerDemo.unity
+│ │ │ └── LocalDictionaryCheck.unity
+│ │ ├── Scripts/
+│ │ │ ├── EmailChecker.cs
+│ │ │ ├── PasswordChecker.cs
+│ │ │ ├── LocalDictionaryCreator.cs
+│ │ │ └── LocalDictionaryChecker.cs
+│ ├── Generated/ # Output dictionaries and exported JSON data
+│ └── Readme.txt # In-editor README file
+
 
 ---
 

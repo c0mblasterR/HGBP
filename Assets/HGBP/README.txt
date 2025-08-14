@@ -14,9 +14,9 @@ Bu Unity varlık paketi, oyun geliştiricilerinin kullanıcıların parolaların
 - HIBP API ile parola sızıntı kontrolü (demo sahne dahil)
 - (Opsiyonel) E-posta kontrolü sistemi (API key ile çalışır)
 - Demo sahne entegrasyonu
+- Offline sözlük desteği (modüler sistem)
 
 🔄 Yapılıyor:
-- Offline sözlük desteği (modüler sistem)
 - Geliştirici dokümantasyonlarının genişletilmesi
 - Kod tabanının test altyapısı ile güçlendirilmesi
 
@@ -49,9 +49,9 @@ This Unity asset helps developers secure user passwords using the HaveIBeenPwned
 - Password breach check via HIBP API (demo scene included)
 - Optional email breach check (requires API key)
 - Basic integration demo scene
+- Offline dictionary support (modular implementation)
 
 🔄 In Progress:
-- Offline dictionary support (modular implementation)
 - Expanded developer documentation
 - Internal testing support structures
 

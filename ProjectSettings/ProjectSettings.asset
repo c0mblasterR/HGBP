@@ -711,11 +711,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: c40ab944-fab3-4873-b30f-b60bf704e622
+  cloudProjectId: f545f46c-3fdb-4dc6-8877-c705db9e1551
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: HGBP
-  organizationId: naberegege
+  organizationId: comblaster-as-publisher
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
